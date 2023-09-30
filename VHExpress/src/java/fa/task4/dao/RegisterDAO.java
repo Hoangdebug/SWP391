@@ -39,7 +39,7 @@ public class RegisterDAO {
         return list;
     
     }
-     public int insertUsers(Users p){
+    public int insertUsers(Users p){
     int kq=0;
     try{
         String sql= "INSERT INTO `bus`.`user` (`username`, `password`, `fullName`, `gender`, `address`, `phoneNum`, `role`, `email`) VALUES (?, ?, ?, ?, ?, ?, ?, ?);";
@@ -53,7 +53,7 @@ public class RegisterDAO {
         pr.setString(7,"Customer");
         pr.setString(8,p.getEmail());
       
-        pr.executeUpdate();
+        pr.execute();
     }catch (SQLException e) {
             e.printStackTrace();
         }

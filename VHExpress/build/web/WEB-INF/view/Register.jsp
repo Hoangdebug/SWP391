@@ -101,7 +101,7 @@
 							<div class="col-2">
 								<div class="input-group">
 									<label class="label">Phone Number</label> <input
-										class="input--style-4" type="number" name="phoneNum" required="">
+										class="input--style-4" type="text" name="phoneNum" required="">
 								</div>
 							</div>
 						</div>
