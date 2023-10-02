@@ -6,111 +6,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet"
-              href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-        <script
-        src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script
-        src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-        <link rel="stylesheet"
-              href="bootstrap-4.0.0/css/bootstrap.min.css">
-
-        <!--        <link rel="stylesheet"
-                      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-                      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-                      crossorigin="anonymous">-->
-
-        <!-- Optional theme -->
-        <!-- Latest compiled and minified JavaScript -->
-        <script
-            src="bootstrap-4.0.0/js/bootstrap.min.js"
-            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
-
-        <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js"
-        type="text/javascript"></script>
-        <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css"
-              rel="stylesheet" type="text/css" />
-        <!------ Include the above in your HEAD tag ---------->
         <title>Document</title>
-        <link rel="stylesheet" href="css/Cart.css">
     </head>
     <style>
-        body {
-            font-family: 'Varela Round', sans-serif;
-        }
-        .navbar {
-            background: #fff;
-            padding-left: 16px;
-            padding-right: 16px;
-            border-bottom: 1px solid #dfe3e8;
-            border-radius: 0;
-        }
-        .navbar .navbar-brand {
-            padding-left: 0;
-            font-size: 20px;
-            padding-right: 10px;
-        }
-        .navbar .navbar-brand b {
-            color: #33cabb;		
-        }
-
-        .navbar a {
-            color: #888;
-            font-size: 15px;
-        }
-
-
-        .navbar .sign-up-btn {
-            min-width: 110px;
-            max-height: 36px;
-            background-color: red;
-        }
-
-        .navbar a, .navbar a:active {
-            color: #888;
-            padding: 8px 20px;
-            background: transparent;
-            line-height: normal;
-        }
-        .ftco-section {
-            padding: 6em 0;
-            position: relative;
-
-        }
-        .step-item{
-            width: auto;
-            height: 250px;
-            border: dashed 3px var(--teal);
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px 40px;
-        }
-
-        .step-name{
-            font-weight: 600;
-            font-size: 28px;
-            color: black;
-        }
-
-        .step-content{
-            text-align: left;
-            margin-bottom: 10px;
-        }
-
-        .step-content p{
-            margin: 0;
-        }
-
-
     </style>
 
-
-</style>
 <body>
-
+    <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a href="#" class="navbar-brand">VH<b>EXPRESS</b></a> 
         <!-- Collection of nav links, forms, and other content for toggling -->
@@ -141,6 +43,9 @@
             </div>
 
     </nav>
+    <!--END NAVBAR-->
+
+    <!--CAROUSEL-->
     <div class="container mt-5">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -181,7 +86,7 @@
             </a>
         </div>
 
-
+        <!-- CAROUSEL-->
         <!--
         
         
@@ -192,29 +97,29 @@
 
 
 
-        <div class="container">
-            <div class="box-search">
-                <form>
-                    <table width="100%" cellspacing="0" class="table-search">
-                        <tbody>
-                            <tr>
-                                <td><select class="form-control col-sm-12">
-                                        <option value="Điểm đi" selected>Điểm đi</option>
-                                        <option>Sài gòn</option>
-                                    </select></td>
-                                <td><select class="form-control col-sm-12">
-                                        <option value="Điểm đến" selected>Điểm đến</option>
-                                        <option>Cà Mau</option>
-                                    </select></td>
-                                <td class="date"><input class="form-control col-sm-12"
-                                                        type="date"></td>
-                                <td><input type="submit" class="btn-outline-info" value="Tìm vé"></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </form>
-            </div>
-        </div>
+        <!--        <div class="container">
+                    <div class="box-search">
+                        <form>
+                            <table width="100%" cellspacing="0" class="table-search">
+                                <tbody>
+                                    <tr>
+                                        <td><select class="form-control col-sm-12">
+                                                <option value="Điểm đi" selected>Điểm đi</option>
+                                                <option>Sài gòn</option>
+                                            </select></td>
+                                        <td><select class="form-control col-sm-12">
+                                                <option value="Điểm đến" selected>Điểm đến</option>
+                                                <option>Cà Mau</option>
+                                            </select></td>
+                                        <td class="date"><input class="form-control col-sm-12"
+                                                                type="date"></td>
+                                        <td><input type="submit" class="btn-outline-info" value="Tìm vé"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </form>
+                    </div>
+                </div>-->
 
         <section class="ftco-section">
             <div class="container">
@@ -288,58 +193,35 @@
         </section>
 
 
-        <footer class="ftco-footer ftco-bg-dark ftco-section">
-
-            <div class="row mb-5" style="background-color: black">
-                <div class="col-md">
-                    <div class="ftco-footer-widget mb-4">
-                        <h2 class="ftco-heading-2"><a href="#" class="logo">Car<span>book</span></a></h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                            <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                            <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                            <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>Thông tin liên hệ</h4>
+                        <p>Địa chỉ: 123 Đường ABC, Thành phố XYZ</p>
+                        <p>Điện thoại: (123) 456-7890</p>
+                        <p>Email: info@vexe.com</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Liên kết nhanh</h4>
+                        <ul>
+                            <li><a href="#">Trang chủ</a></li>
+                            <li><a href="#">Vé xe</a></li>
+                            <li><a href="#">Thông tin về chúng tôi</a></li>
+                            <li><a href="#">Liên hệ</a></li>
                         </ul>
                     </div>
-                </div>
-                <div class="col-md">
-                    <div class="ftco-footer-widget mb-4 ml-md-5">
-                        <h2 class="ftco-heading-2">Information</h2>
-                        <ul class="list-unstyled">
-                            <li><a href="#" class="py-2 d-block">About</a></li>
-                            <li><a href="#" class="py-2 d-block">Services</a></li>
-                            <li><a href="#" class="py-2 d-block">Term and Conditions</a></li>
-                            <li><a href="#" class="py-2 d-block">Best Price Guarantee</a></li>
-                            <li><a href="#" class="py-2 d-block">Privacy &amp; Cookies Policy</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md">
-                    <div class="ftco-footer-widget mb-4">
-                        <h2 class="ftco-heading-2">Customer Support</h2>
-                        <ul class="list-unstyled">
-                            <li><a href="#" class="py-2 d-block">FAQ</a></li>
-                            <li><a href="#" class="py-2 d-block">Payment Option</a></li>
-                            <li><a href="#" class="py-2 d-block">Booking Tips</a></li>
-                            <li><a href="#" class="py-2 d-block">How it works</a></li>
-                            <li><a href="#" class="py-2 d-block">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md">
-                    <div class="ftco-footer-widget mb-4">
-                        <h2 class="ftco-heading-2">Have a Questions?</h2>
-                        <div class="block-23 mb-3">
-                            <ul>
-                                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-                                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-                                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
-                            </ul>
-                        </div>
+                    <div class="col-md-4">
+                        <h4>Theo dõi chúng tôi</h4>
+                        <p>Chúng tôi trên mạng xã hội:</p>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
         </footer>
+
 
 </body>
 <script src="css/cart.js"></script>

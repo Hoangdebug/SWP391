@@ -5,25 +5,35 @@
         <group>
             <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/web/css/Cart.css</file>
             <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/web/bootstrap-4.0.0/css/bootstrap.css</file>
-            <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/src/java/fa/task4/dao/JDBCConnection.java</file>
-            <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/src/java/fa/task4/model/Ticket.java</file>
+            <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/web/css/util.css</file>
             <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/web/images/logo2.png</file>
-            <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/src/java/fa/task4/dao/RegisterDAO.java</file>
             <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/src/java/fa/task4/model/Users.java</file>
             <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/src/java/fa/task4/model/TicketFullname.java</file>
-            <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/web/css/resgister.css</file>
+            <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/src/java/fa/task4/controller/customer/admin/ShowUserServlet.java</file>
             <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/src/java/fa/task4/model/Bus.java</file>
-            <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/web/WEB-INF/view/Register.jsp</file>
             <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/web/bootstrap-4.0.0/css/bootstrap.min.css</file>
-            <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/src/java/fa/task4/controller/customer/RegisterServlet.java</file>
+            <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/web/WEB-INF/view/viewAdmin/ViewSearch.jsp</file>
             <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/web/bootstrap-4.0.0/css/bootstrap-reboot.min.css.map</file>
             <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/web/index.jsp</file>
-            <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/web/images/logo1.png</file>
             <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/web/WEB-INF/view/Login.jsp</file>
             <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/src/java/fa/task4/model/Seat.java</file>
+            <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/src/java/fa/task4/controller/customer/AccountServlet.java</file>
+            <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/src/java/fa/task4/controller/customer/admin/InsertUserServlet.java</file>
+            <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/src/java/fa/task4/dao/JDBCConnection.java</file>
+            <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/src/java/fa/task4/model/Ticket.java</file>
+            <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/src/java/fa/task4/dao/RegisterDAO.java</file>
+            <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/web/WEB-INF/view/viewAdmin/InsertUser.jsp</file>
+            <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/web/META-INF/context.xml</file>
+            <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/web/css/resgister.css</file>
+            <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/web/WEB-INF/view/Register.jsp</file>
+            <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/src/java/fa/task4/controller/customer/RegisterServlet.java</file>
+            <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/src/java/fa/task4/dao/AccountDAO.java</file>
+            <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/web/WEB-INF/view/viewAdmin/UpdateUser.jsp</file>
+            <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/web/images/logo1.png</file>
+            <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/src/java/fa/task4/controller/customer/admin/ListAccount.java</file>
             <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/src/java/fa/task4/dao/BusDAO.java</file>
             <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/web/WEB-INF/view/viewCustomer/IndexCustomer.jsp</file>
-            <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/src/java/fa/task4/controller/customer/AccountServlet.java</file>
+            <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/web/WEB-INF/view/viewAdmin/IndexAdmin.jsp</file>
             <file>file:/C:/Users/ACER/Desktop/SWP391/VHExpress/src/java/fa/task4/model/SeatWithStatus.java</file>
         </group>
     </open-files>
