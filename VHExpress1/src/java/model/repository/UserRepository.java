@@ -134,19 +134,4 @@ public class UserRepository {
         return authority;
     }
 
-    public static void main(String[] args) {
-        UserRepository ur = new UserRepository();
-        LoginDao ld = new LoginDao();
-        String user = new String("viethoang17122002@gmail.com");
-//        System.out.println(ur.getUserAuthority(user));
-        String pass = new String("123");
-        String newPass = new String(DigestUtils.md5Hex(pass));
-        System.out.println(newPass);
-        System.out.println(user);
-//        System.out.println(newPass);
-        ld.setEmail(user);
-        ld.setNewPass(newPass);
-        System.out.println(ur.login(ld));
-
-    }
 }
